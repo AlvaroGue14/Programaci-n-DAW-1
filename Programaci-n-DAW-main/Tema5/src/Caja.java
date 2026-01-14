@@ -22,5 +22,6 @@ public class Caja<T> {
         caja2.guardar("Hola Mundo");
        
         System.out.println("Contenido caja1: " + caja1.obtener());
+        System.out.println("Contenido caja2: " + caja2.obtener());
     }
 }
