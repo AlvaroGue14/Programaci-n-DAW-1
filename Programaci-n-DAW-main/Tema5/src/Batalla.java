@@ -40,11 +40,12 @@ public class Batalla {
             System.out.println("-----------------------------");
         }
 
-        System.out.println("🏆 Batalla terminada");
+        System.out.println("Se ha terminado la batalla.");
         if (equipo1.isEmpty()) {
             System.out.println("Gana el equipo 2");
         } else {
             System.out.println("Gana el equipo 1");
         }
+        System.out.println("⚔️ Fin de la batalla.");
     }
 }
