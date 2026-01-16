@@ -6,6 +6,7 @@ public class Cuadrado extends Figura {
     public Cuadrado(String color, double lado) {
         super(color);
         this.lado = lado;
+        
     }
 
     @Override
